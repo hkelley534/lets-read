@@ -46,11 +46,11 @@ export default function MobileDrawer() {
         size='large'
         aria-label="open drawer"
         edge="start"
-        color="palette.text.primary"
         onClick={handleDrawerToggle}
         sx={{ display: { md: 'none' } }}
       >
-        <MenuIcon sx={{ transform: 'scale(1.8)'}} />
+        <MenuIcon 
+        sx={{ transform: 'scale(1.8)'}} />
       </IconButton>
 
       <Drawer
